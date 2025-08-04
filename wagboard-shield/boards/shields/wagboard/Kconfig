@@ -1,3 +1,5 @@
-config SHIELD_WAGBOARD
-    bool "Wagboard"
-    depends on SHIELD
+menu "Wagboard Shield"
+    config SHIELD_WAGBOARD
+        bool "Wagboard"
+        depends on SHIELD
+endmenu

@@ -1,3 +1,0 @@
-config SHIELD_WAGBOARD
-    bool "Wagboard"
-    depends on SHIELD
